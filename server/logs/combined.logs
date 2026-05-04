@@ -1,0 +1,171 @@
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T14:47:07.287Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T14:55:46.211Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T15:02:02.426Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T15:19:13.561Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T15:33:50.587Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T15:56:50.500Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T16:00:26.765Z"}
+{"level":"info","message":"Server running on http://localhost:","timestamp":"2026-04-24T16:02:06.078Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T16:04:32.258Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T16:10:14.614Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T16:48:39.766Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T16:49:53.286Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T16:50:02.279Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T17:02:10.188Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T17:10:28.737Z"}
+{"level":"info","message":"User connected: f9AknnTJv7coWdpYAAAB","timestamp":"2026-04-24T17:10:30.190Z"}
+{"level":"info","message":"📩 Received ping:","msg":"hello server","time":1777050630207,"timestamp":"2026-04-24T17:10:30.240Z"}
+{"level":"info","message":"User connected: vB_NVocGeRtOuxDYAAAD","timestamp":"2026-04-24T17:10:33.711Z"}
+{"level":"info","message":"📩 Received ping:","msg":"hello server","time":1777050633738,"timestamp":"2026-04-24T17:10:33.766Z"}
+{"level":"info","message":"Message from vB_NVocGeRtOuxDYAAAD: Kamehameka","timestamp":"2026-04-24T17:10:38.512Z"}
+{"level":"warn","message":"User disconnected: vB_NVocGeRtOuxDYAAAD","timestamp":"2026-04-24T17:12:35.482Z"}
+{"level":"info","message":"User connected: 3MwxJ-dXbUxT94XGAAAF","timestamp":"2026-04-24T17:12:36.375Z"}
+{"level":"info","message":"📩 Received ping:","msg":"hello server","time":1777050756468,"timestamp":"2026-04-24T17:12:36.495Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T17:13:47.614Z"}
+{"level":"info","message":"User connected: w1e6ZNyIbn2-voZmAAAC","timestamp":"2026-04-24T17:13:48.493Z"}
+{"level":"info","message":"User connected: PMrJGR5MJA0NVSPDAAAD","timestamp":"2026-04-24T17:13:48.502Z"}
+{"level":"info","message":"Message from w1e6ZNyIbn2-voZmAAAC: yo","timestamp":"2026-04-24T17:14:02.827Z"}
+{"level":"info","message":"Message from PMrJGR5MJA0NVSPDAAAD: Aii","timestamp":"2026-04-24T17:14:15.248Z"}
+{"level":"info","message":"User connected: rCVXKf5kO2tByk6aAAAF","timestamp":"2026-04-24T17:14:48.993Z"}
+{"level":"info","message":"User connected: BEnyJYgvmHeiq8TZAAAH","timestamp":"2026-04-24T17:14:49.205Z"}
+{"level":"info","message":"User connected: UG3EaNOL9aFix_lgAAAJ","timestamp":"2026-04-24T17:14:51.005Z"}
+{"level":"info","message":"User connected: tsi3iAHE6wPrOlk3AAAL","timestamp":"2026-04-24T17:14:51.151Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T17:15:03.972Z"}
+{"level":"info","message":"User connected: P3Qr-Nt5A6kR2MGWAAAC","timestamp":"2026-04-24T17:15:06.560Z"}
+{"level":"info","message":"User connected: Cjbsx_NWZe5H5mwtAAAD","timestamp":"2026-04-24T17:15:06.663Z"}
+{"level":"info","message":"Message from Cjbsx_NWZe5H5mwtAAAD: oi","timestamp":"2026-04-24T17:15:17.838Z"}
+{"level":"warn","message":"User disconnected: P3Qr-Nt5A6kR2MGWAAAC","timestamp":"2026-04-24T17:31:18.210Z"}
+{"level":"info","message":"User connected: S95cFxLYL_IbIcagAAAF","timestamp":"2026-04-24T17:31:19.206Z"}
+{"level":"warn","message":"User disconnected: S95cFxLYL_IbIcagAAAF","timestamp":"2026-04-24T17:35:06.171Z"}
+{"level":"info","message":"User connected: Kg7nN1jLM3wbzKOWAAAH","timestamp":"2026-04-24T17:35:07.066Z"}
+{"level":"warn","message":"User disconnected: Kg7nN1jLM3wbzKOWAAAH","timestamp":"2026-04-24T17:49:36.173Z"}
+{"level":"info","message":"User connected: SVFFTLqQV3Ar9TVOAAAJ","timestamp":"2026-04-24T17:49:37.082Z"}
+{"level":"warn","message":"User disconnected: Cjbsx_NWZe5H5mwtAAAD","timestamp":"2026-04-24T17:49:52.357Z"}
+{"level":"info","message":"User connected: zs1ks4jxYg2NE1mNAAAL","timestamp":"2026-04-24T17:49:53.907Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T18:09:08.978Z"}
+{"level":"info","message":"User connected: ovRC0tiUarPqx-CGAAAB","timestamp":"2026-04-24T18:09:14.474Z"}
+{"level":"info","message":"User connected: B9hQhQPJcLtQwPpnAAAD","timestamp":"2026-04-24T18:09:17.763Z"}
+{"level":"error","message":"🔴 MongoDB connection failed MongoNetworkError: 4059FA9C977F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:918:SSL alert number 80\n","timestamp":"2026-04-24T18:09:21.933Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-04-24T18:11:22.605Z"}
+{"level":"info","message":"User connected: 02Qwstt612j-h8eSAAAB","timestamp":"2026-04-24T18:11:25.630Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-04-24T18:11:26.272Z"}
+{"level":"warn","message":"User disconnected: 02Qwstt612j-h8eSAAAB","timestamp":"2026-04-24T18:11:39.673Z"}
+{"level":"info","message":"User connected: nROazWQllojNIylZAAAD","timestamp":"2026-04-24T18:11:40.830Z"}
+{"level":"info","message":"User connected: 3hW5C6sspUBor0EzAAAF","timestamp":"2026-04-24T18:11:47.877Z"}
+{"level":"warn","message":"User disconnected: nROazWQllojNIylZAAAD","timestamp":"2026-04-24T18:41:49.220Z"}
+{"level":"info","message":"User connected: QQ-2TcwPx6DC5ZOyAAAI","timestamp":"2026-04-24T18:56:17.483Z"}
+{"level":"info","message":"👥 3hW5C6sspUBor0EzAAAF joined room: Josh","timestamp":"2026-04-24T19:28:42.080Z"}
+{"level":"info","message":"Room message from 3hW5C6sspUBor0EzAAAF: Oi","timestamp":"2026-04-24T19:28:49.214Z"}
+{"level":"info","message":"👥 QQ-2TcwPx6DC5ZOyAAAI joined room: josh","timestamp":"2026-04-24T19:29:05.652Z"}
+{"level":"info","message":"Room message from QQ-2TcwPx6DC5ZOyAAAI: oi","timestamp":"2026-04-24T19:29:12.849Z"}
+{"level":"info","message":"Room message from 3hW5C6sspUBor0EzAAAF: ei","timestamp":"2026-04-24T19:29:19.187Z"}
+{"level":"info","message":"Room message from QQ-2TcwPx6DC5ZOyAAAI: jnnjnj","timestamp":"2026-04-24T19:47:28.520Z"}
+{"level":"warn","message":"User disconnected: QQ-2TcwPx6DC5ZOyAAAI","timestamp":"2026-04-24T20:04:15.909Z"}
+{"level":"info","message":"User connected: FInW2o6DwTB0e-W-AAAK","timestamp":"2026-04-24T20:07:10.338Z"}
+{"level":"warn","message":"User disconnected: FInW2o6DwTB0e-W-AAAK","timestamp":"2026-04-24T20:31:32.108Z"}
+{"level":"info","message":"User connected: GOrrOQ9E7COydKPhAAAN","timestamp":"2026-04-25T07:18:08.580Z"}
+{"level":"warn","message":"User disconnected: GOrrOQ9E7COydKPhAAAN","timestamp":"2026-04-25T07:29:09.306Z"}
+{"level":"info","message":"User connected: nNuXXe_Kht4TL45OAAAP","timestamp":"2026-04-25T07:47:50.907Z"}
+{"level":"warn","message":"User disconnected: 3hW5C6sspUBor0EzAAAF","timestamp":"2026-04-25T07:47:57.327Z"}
+{"level":"info","message":"User connected: _z0-_YV6YkBE0z4oAAAR","timestamp":"2026-04-25T07:47:58.962Z"}
+{"level":"info","message":"Global message from _z0-_YV6YkBE0z4oAAAR: hsxbhbdhc","timestamp":"2026-04-25T07:48:06.333Z"}
+{"level":"info","message":"Global message from _z0-_YV6YkBE0z4oAAAR: Josh","timestamp":"2026-04-25T07:48:11.922Z"}
+{"level":"info","message":"👥 nNuXXe_Kht4TL45OAAAP joined room: Hello","timestamp":"2026-04-25T07:48:19.211Z"}
+{"level":"info","message":"Room message from nNuXXe_Kht4TL45OAAAP: jscbbjdnnfjv","timestamp":"2026-04-25T07:48:25.499Z"}
+{"level":"info","message":"👥 _z0-_YV6YkBE0z4oAAAR joined room: hello","timestamp":"2026-04-25T07:48:32.215Z"}
+{"level":"info","message":"Room message from _z0-_YV6YkBE0z4oAAAR: djjnvfnjv","timestamp":"2026-04-25T07:48:36.453Z"}
+{"level":"info","message":"👥 nNuXXe_Kht4TL45OAAAP joined room: hello","timestamp":"2026-04-25T07:48:49.588Z"}
+{"level":"info","message":"Room message from nNuXXe_Kht4TL45OAAAP: bbxhbshcbdhd","timestamp":"2026-04-25T07:48:56.001Z"}
+{"level":"warn","message":"User disconnected: nNuXXe_Kht4TL45OAAAP","timestamp":"2026-04-25T08:48:50.456Z"}
+{"level":"info","message":"User connected: kaf3ADLRN2CsZuTwAAAT","timestamp":"2026-04-25T15:22:30.543Z"}
+{"level":"warn","message":"User disconnected: kaf3ADLRN2CsZuTwAAAT","timestamp":"2026-04-25T15:22:56.958Z"}
+{"level":"info","message":"User connected: 4Y7aM-f0nayqsYhgAAAV","timestamp":"2026-04-25T15:23:20.190Z"}
+{"level":"info","message":"👥 _z0-_YV6YkBE0z4oAAAR joined room: hello","timestamp":"2026-04-25T15:24:47.027Z"}
+{"level":"info","message":"👥 _z0-_YV6YkBE0z4oAAAR joined room: hello","timestamp":"2026-04-25T15:24:54.947Z"}
+{"level":"info","message":"Room message from _z0-_YV6YkBE0z4oAAAR: feee","timestamp":"2026-04-25T15:24:58.595Z"}
+{"level":"info","message":"👥 4Y7aM-f0nayqsYhgAAAV joined room: hello","timestamp":"2026-04-25T15:25:16.464Z"}
+{"level":"info","message":"Room message from 4Y7aM-f0nayqsYhgAAAV: were","timestamp":"2026-04-25T15:25:24.052Z"}
+{"level":"info","message":"Room message from 4Y7aM-f0nayqsYhgAAAV: reee","timestamp":"2026-04-25T15:30:25.124Z"}
+{"level":"info","message":"Room message from 4Y7aM-f0nayqsYhgAAAV: sxsxsx","timestamp":"2026-04-25T16:23:44.145Z"}
+{"level":"info","message":"👥 _z0-_YV6YkBE0z4oAAAR joined room: cdxsd","timestamp":"2026-04-25T16:24:12.048Z"}
+{"level":"info","message":"👥 4Y7aM-f0nayqsYhgAAAV joined room: cdxsd","timestamp":"2026-04-25T16:24:23.239Z"}
+{"level":"info","message":"Room message from 4Y7aM-f0nayqsYhgAAAV: xsdcfvf","timestamp":"2026-04-25T16:24:29.781Z"}
+{"level":"info","message":"Room message from _z0-_YV6YkBE0z4oAAAR: zcd","timestamp":"2026-04-25T16:24:43.883Z"}
+{"level":"info","message":"User connected: ImOekPE95D_fcz76AAAX","timestamp":"2026-04-25T17:02:31.098Z"}
+{"level":"info","message":"User connected: _4meNHA3MCsi0e9VAAAZ","timestamp":"2026-04-25T17:02:31.226Z"}
+{"level":"info","message":"User connected: 5cTu9LFKoxTPWg18AAAb","timestamp":"2026-04-25T17:05:54.237Z"}
+{"level":"info","message":"User connected: 7F2Zh6gW50H7gy0TAAAd","timestamp":"2026-04-25T17:06:02.333Z"}
+{"level":"warn","message":"User disconnected: _z0-_YV6YkBE0z4oAAAR","timestamp":"2026-04-25T18:19:55.863Z"}
+{"level":"warn","message":"User disconnected: 7F2Zh6gW50H7gy0TAAAd","timestamp":"2026-04-25T18:19:55.927Z"}
+{"level":"warn","message":"User disconnected: _4meNHA3MCsi0e9VAAAZ","timestamp":"2026-04-25T18:19:55.930Z"}
+{"level":"warn","message":"User disconnected: ImOekPE95D_fcz76AAAX","timestamp":"2026-04-25T20:03:26.241Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T10:34:59.726Z"}
+{"level":"error","message":"🔴 MongoDB connection failed MongoNetworkError: 80D9DF1D3D7F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:918:SSL alert number 80\n","timestamp":"2026-05-04T10:35:02.420Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T10:36:50.899Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-04T10:36:52.005Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T10:40:46.799Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-04T10:40:48.918Z"}
+{"duration":"20ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:42:48.408Z","url":"/api/"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:43:23.423Z","url":"/api/"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:43:45.340Z","url":"/api/"}
+{"duration":"12ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:45:38.406Z","url":"/api/"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:50:17.140Z","url":"/api/"}
+{"duration":"6ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:50:34.926Z","url":"/api/"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T13:53:34.843Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-04T13:53:37.014Z"}
+{"duration":"21ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:54:06.570Z","url":"/api/"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T13:54:19.783Z","url":"/api/"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T13:56:06.294Z"}
+{"level":"error","message":"🔴 MongoDB connection failed MongoNetworkError: 80093B0EA47F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:918:SSL alert number 80\n","timestamp":"2026-05-04T13:56:07.893Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T14:00:05.263Z"}
+{"level":"error","message":"🔴 MongoDB connection failed MongoNetworkError: 8029C19C257F0000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:ssl/record/rec_layer_s3.c:918:SSL alert number 80\n","timestamp":"2026-05-04T14:00:13.169Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T14:00:59.514Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-04T14:01:03.507Z"}
+{"duration":"36ms","level":"info","message":"HTTP Request","method":"POST","status":500,"timestamp":"2026-05-04T14:01:11.302Z","url":"/api/"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T14:04:40.006Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-04T14:04:45.338Z"}
+{"duration":"20ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:05:13.122Z","url":"/"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:14:47.111Z","url":"/"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:14:57.745Z","url":"/"}
+{"level":"info","message":"User adminX created successfully","timestamp":"2026-05-04T14:20:22.792Z"}
+{"duration":"962ms","level":"info","message":"HTTP Request","method":"POST","status":201,"timestamp":"2026-05-04T14:20:22.796Z","url":"/"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:21:03.610Z","url":"/login"}
+{"duration":"616ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-04T14:21:28.873Z","url":"/login"}
+{"duration":"20ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:25:33.904Z","url":"/login"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:27:22.564Z","url":"/login"}
+{"level":"error","message":"E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"demona066@gmail.com\" }","timestamp":"2026-05-04T14:27:36.403Z"}
+{"duration":"888ms","level":"info","message":"HTTP Request","method":"POST","status":500,"timestamp":"2026-05-04T14:27:36.407Z","url":"/"}
+{"level":"error","message":"E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"demona066@gmail.com\" }","timestamp":"2026-05-04T14:36:15.054Z"}
+{"duration":"816ms","level":"info","message":"HTTP Request","method":"POST","status":500,"timestamp":"2026-05-04T14:36:15.058Z","url":"/"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:41:01.472Z","url":"/login"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T14:41:42.905Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-04T14:41:47.089Z"}
+{"duration":"777ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-04T14:41:51.881Z","url":"/login"}
+{"duration":"52ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-04T14:46:55.369Z","url":"/"}
+{"level":"info","message":"User jinw created successfully","timestamp":"2026-05-04T14:47:11.686Z"}
+{"duration":"2236ms","level":"info","message":"HTTP Request","method":"POST","status":201,"timestamp":"2026-05-04T14:47:11.693Z","url":"/"}
+{"duration":"701ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-04T14:47:20.863Z","url":"/login"}
+{"duration":"3055ms","level":"info","message":"HTTP Request","method":"POST","status":409,"timestamp":"2026-05-04T14:48:35.138Z","url":"/"}
+{"level":"error","message":"E11000 duplicate key error collection: test.users index: email_1 dup key: { email: \"demona066@gmail.com\" }","timestamp":"2026-05-04T14:50:33.823Z"}
+{"duration":"1402ms","level":"info","message":"HTTP Request","method":"POST","status":500,"timestamp":"2026-05-04T14:50:33.834Z","url":"/"}
+{"level":"info","message":"User josh created successfully","timestamp":"2026-05-04T14:51:03.718Z"}
+{"duration":"924ms","level":"info","message":"HTTP Request","method":"POST","status":201,"timestamp":"2026-05-04T14:51:03.720Z","url":"/"}
+{"duration":"655ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-04T14:51:08.413Z","url":"/login"}
+{"duration":"192ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-04T14:53:24.931Z","url":"/login"}
+{"duration":"229ms","level":"info","message":"HTTP Request","method":"POST","status":409,"timestamp":"2026-05-04T14:53:35.682Z","url":"/"}
+{"level":"info","message":"User jay created successfully","timestamp":"2026-05-04T14:53:49.402Z"}
+{"duration":"884ms","level":"info","message":"HTTP Request","method":"POST","status":201,"timestamp":"2026-05-04T14:53:49.406Z","url":"/"}
+{"duration":"673ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-04T14:53:53.022Z","url":"/login"}
+{"duration":"72ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:15:33.680Z","url":"/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:15:34.747Z","url":"/user/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:15:36.770Z","url":"/user/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:15:40.790Z","url":"/user/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:15:44.419Z","url":"/user/me"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:15:45.446Z","url":"/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:15:47.478Z","url":"/user/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:11.731Z","url":"/user/me"}
+{"duration":"3590ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-04T16:25:20.207Z","url":"/login"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:29.367Z","url":"/user/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:30.386Z","url":"/user/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:32.404Z","url":"/user/me"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:36.423Z","url":"/user/me"}
