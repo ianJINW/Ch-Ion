@@ -114,15 +114,3 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
-
-@keyframes bounce-x {
-  0% { transform: translateX(-50%); }
-  60% { transform: translateX(0); }
-  75% { transform: translateX(-15%); }
-  90% { transform: translateX(0); }
-  100% { transform: translateX(0); }
-}
-
-.animate-bounce-x {
-  animation: bounce-x 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
-}   
