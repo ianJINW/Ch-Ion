@@ -29,7 +29,7 @@ const loginFN = async (formData: loginForm, url: string) => {
 
 export const useLoginApi = (url: string) => {
   const login = useAuthStore(s => s.login)
-  const [searchParams, setSearchParams] = useSearchParams({ mode: "login" });
+  const [, setSearchParams] = useSearchParams({ mode: "login" });
   const navigate = useNavigate()
 
   return useMutation({
@@ -47,7 +47,7 @@ export const useLoginApi = (url: string) => {
 }
 
 export const useRegisterApi = (url: string) => {
-  const [searchParams, setSearchParams] = useSearchParams({ mode: "register" });
+  const [, setSearchParams] = useSearchParams({ mode: "register" });
 
   return useMutation({
     mutationFn: (formdata: registerForm) => register(formdata, url),

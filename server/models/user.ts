@@ -1,4 +1,4 @@
-import { model, Schema } from 'mongoose';
+import { Document, model, Schema } from 'mongoose';
 import { compare, genSalt, hash } from "bcryptjs";
 
 export interface IUser extends Document {
@@ -39,8 +39,8 @@ userSchema.pre('save', async function () {
   this.password = await hash(this.password!, salt)
 })
 
-userSchema.methods.comparePassword = async function (candidatePasssword: string): Promise<boolean> {
-  return compare(candidatePasssword, this.password)
+userSchema.methods.comparePassword = async function (candidatePassword: string): Promise<boolean> {
+  return compare(candidatePassword, this.password)
 }
 
 userSchema.set("toJSON", {

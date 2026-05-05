@@ -12,14 +12,23 @@ const NavBar: FC = () => {
   }
 
   return (
-    <header className="flex flex-row justify-evenly align-center">
-      <Link to={"/"}  ><Home />  </Link>
+    <header className="flex items-center justify-between gap-4 bg-neutral-900 border-b border-neutral-800 px-4 py-3">
+      <Link to="/" className="flex items-center gap-2 text-neutral-200 hover:text-white">
+        <Home />
+        <span>Home</span>
+      </Link>
+
       <section>
-        <Link to={"/chat"}>{<MessageCircle />} Chats</Link>
+        <Link to="/chat" className="text-neutral-300 hover:text-white flex items-center gap-2">
+          <MessageCircle /> Chats
+        </Link>
       </section>
 
-      <button> {user ? (<LogOut onClick={logoutFN} />) : (<UserIcon/>)}</button>
-    </header>)
+      <button onClick={logoutFN} className="text-neutral-300 hover:text-white">
+        {user ? <LogOut /> : <UserIcon />}
+      </button>
+    </header>
+  )
 }
 
 export default NavBar

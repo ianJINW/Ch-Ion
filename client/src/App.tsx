@@ -9,12 +9,14 @@ function App() {
   return (
     <>
       <Router>
-        <NavBar/>
-        <Routes>
-          <Route path='/chat' element={<ChatPage />} />
-          <Route path='/auth' element={<FormAuth />} />
-          <Route path="/" element={<Home/>} />
-        </Routes>
+        <div className="min-h-screen bg-neutral-950 text-white">
+          <NavBar />
+          <Routes>
+            <Route path='/chat' element={<ChatPage />} />
+            <Route path='/auth' element={<FormAuth />} />
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </div>
       </Router>
     </>
   )

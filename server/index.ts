@@ -6,7 +6,8 @@ import envConfig from "./config/env.Config";
 import reqLogger from "./middleware/logging";
 import initSocket from "./utils/socket";
 import connectDB from "./config/db";
-import router from "./routes/user.route";
+import userRouter from "./routes/user.route";
+import messageRouter from "./routes/message.route";
 
 const app = express()
 
@@ -23,7 +24,8 @@ const server = createServer(app)
 initSocket(server)
 connectDB(envConfig.MONGO_URI)
 
-app.use('/api', router)
+app.use('/api', userRouter)
+app.use('/api/messages', messageRouter)
 
 server.listen(envConfig.PORT, () => {
   logger.info(`Server running on http://localhost:${envConfig.PORT}`);

@@ -169,3 +169,18 @@
 {"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:30.386Z","url":"/user/me"}
 {"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:32.404Z","url":"/user/me"}
 {"duration":"1ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:25:36.423Z","url":"/user/me"}
+{"duration":"6ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T16:58:34.714Z","url":"/user/me"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-04T17:13:33.848Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-04T17:13:39.238Z"}
+{"duration":"110ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T18:36:23.911Z","url":"/user/me"}
+{"duration":"48ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T18:36:26.847Z","url":"/user/me"}
+{"duration":"39ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-04T18:36:31.165Z","url":"/user/me"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-05T03:27:56.071Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-05T03:27:57.811Z"}
+{"duration":"51ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-05T03:34:59.428Z","url":"/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-05T03:35:00.443Z","url":"/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-05T03:35:02.463Z","url":"/user/me"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-05T03:35:06.477Z","url":"/user/me"}
+{"duration":"36ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-05T03:38:10.861Z","url":"/user/me"}
+{"duration":"18ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-05T03:38:11.915Z","url":"/user/me"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-05T03:38:13.934Z","url":"/user/me"}
