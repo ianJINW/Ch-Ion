@@ -1,9 +1,10 @@
-import { useMutation } from "@tanstack/react-query"
+import { useMutation, useQuery } from "@tanstack/react-query"
 
 import api from "./axios"
 import useAuthStore from "../store/auth.store";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { toast } from "sonner";
+import { reqData } from "./data-api";
 
 export interface registerForm {
   username: string
@@ -27,6 +28,12 @@ const loginFN = async (formData: loginForm, url: string) => {
   return req.data
 }
 
+const logout = async () => {
+  const req = await api.post("/auth/logout")
+
+  return req.data
+}
+
 export const useLoginApi = (url: string) => {
   const login = useAuthStore(s => s.login)
   const [, setSearchParams] = useSearchParams({ mode: "login" });
@@ -35,12 +42,12 @@ export const useLoginApi = (url: string) => {
   return useMutation({
     mutationFn: (formData: loginForm) => loginFN(formData, url),
     onSuccess: data => {
-      login(data.user, data.token)
+      login(data.user, data.token ?? null)
 
       toast.info(`User logged in.`)
       navigate('/chat')
-    }, onError: (error) => {
-      toast.error(`User login failed. Let's try again. ${error}`)
+    }, onError: () => {
+      toast.error(`User login failed. Let's try again.`)
       setSearchParams({ mode: 'login' })
     }
   })
@@ -55,9 +62,27 @@ export const useRegisterApi = (url: string) => {
       toast.info(`User registered successfully`)
       setSearchParams({ mode: 'login' })
     },
-    onError: (error) => {
-      toast.error(`User registration failed. Let's try again. ${error}`)
+    onError: () => {
+      toast.error(`User registration failed. Let's try again.`)
       setSearchParams({ mode: 'register' })
     }
+  })
+}
+
+export const useLogoutApi = () => {
+
+  return useMutation({
+    mutationFn: () => logout(),
+    onSuccess: () => toast.info(`Logged out successfully`),
+    onError: () => toast.error(`Log out unsuccessful.`)
+  })
+}
+
+export const useAuthApi = () => {
+  return useQuery({
+    queryKey: ['auth'],
+    queryFn: () => reqData(import.meta.env.VITE_AUTH_URL),
+    retry: false,
+    refetchOnWindowFocus: false
   })
 }

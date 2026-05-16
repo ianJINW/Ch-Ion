@@ -1,10 +1,10 @@
 import axios from "axios";
 
-console.log(import.meta.env.VITE_BaseURL)
 const api = axios.create({
   baseURL: import.meta.env.VITE_BaseURL,
   timeout: 10000,
-  headers: { 'Content-Type': 'application/json' }
+  headers: { 'Content-Type': 'application/json' },
+  withCredentials: true
 });
 
 api.interceptors.request.use(config => {

@@ -3,9 +3,11 @@ import { toast } from 'sonner';
 import socket from '../utils/socket';
 
 type Message = {
+  _id: string
   msg: string
   senderId: string
   roomId: string
+  createdAt: string
 }
 
 const useSocket = () => {
@@ -18,6 +20,10 @@ const useSocket = () => {
       setConnected(true)
 
       toast.success(`Connected to chat server`)
+    }
+
+    const onHistory = (msgs: Message[]) => {
+      setMessages(msgs)
     }
 
     const onDisconnect = () => {
@@ -34,12 +40,14 @@ const useSocket = () => {
     socket.on('disconnect', onDisconnect)
     socket.on('room_message', onMessage)
     socket.on('global_message', onMessage)
+    socket.on('messages', onHistory)
 
     return () => {
       socket.off('connect', onConnect)
       socket.off('disconnect', onDisconnect)
       socket.off('room_message', onMessage)
       socket.off('global_message', onMessage)
+      socket.off('messages', onHistory)
 
     }
 
@@ -51,15 +59,23 @@ const useSocket = () => {
       return
     }
 
-    if (room) { socket.emit("send_message", { msg, roomId: room }) }
-    else { socket.emit("send_message", { global: true, msg }) }
-    toast.success(`Message sent successfully`)
-  }
+    if (room) {
+      socket.emit("send_message", { msg, roomId: room })
+    }
+    else {
+      socket.emit("send_message", { global: true, msg })
+    }
+
+/*     toast.success(`Message sent successfully`)
+ */  }
 
   const joinRoom = (roomId: string) => {
-    socket.emit("join_room", roomId)
+    if (room) {
+      socket.emit("leave_room", room)
+    }
+
     setRoom(roomId)
-    setMessages([])
+    socket.emit("join_room", roomId)
   }
 
   const joinGlobal = () => {

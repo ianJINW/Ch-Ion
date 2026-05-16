@@ -6,8 +6,7 @@ import { useGetData } from "../lib/data-api";
 
 const Home: FC = () => {
   const navigate = useNavigate();
-  const { user } = useAuthStore();
-
+  const { user, logout } = useAuthStore();
 
   const { data, isPending } = useGetData("user/me");
 
@@ -22,11 +21,19 @@ const Home: FC = () => {
   return (
     <div className="min-h-screen bg-neutral-950 text-white p-6">
       {/* Header */}
-      <div className="flex items-center justify-between mb-8">
-        <h1 className="text-2xl font-semibold">Home</h1>
+      <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between mb-8">
+        <div>
+          <h1 className="text-3xl font-semibold">Home</h1>
+          <p className="mt-2 text-sm text-neutral-400">Manage your profile and jump into chat.</p>
+        </div>
 
         <button
-          className="flex items-center gap-2 text-sm bg-red-500/10 text-red-400 px-3 py-2 rounded-lg hover:bg-red-500/20 transition"
+          type="button"
+          onClick={() => {
+            logout();
+            navigate('/auth');
+          }}
+          className="inline-flex items-center gap-2 rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm text-red-300 transition hover:bg-red-500/20"
         >
           <LogOut size={16} />
           Logout

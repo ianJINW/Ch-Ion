@@ -7,10 +7,14 @@ export interface User {
   email: string
 }
 
+export interface AuthI {
+  user: User,
+}
+
 export interface AuthState {
   user: User | null
   token: string | null
-  login: (user: User, token: string) => void
+  login: (user: User, token: string | null) => void
   logout: () => void
 }
 
@@ -19,8 +23,19 @@ const useAuthStore = create<AuthState>()(
     set => ({
       user: null,
       token: null,
-      login: (user, token) => { set({ user, token }) },
-      logout: () => set({ user: null, token: null })
+      login: (user, token) => {
+        if (token) {
+          localStorage.setItem("token", token)
+        } else {
+          localStorage.removeItem("token")
+        }
+
+        set({ user, token })
+      },
+      logout: () => {
+        localStorage.removeItem("token")
+        set({ user: null, token: null })
+      }
     }),
     {
       name: "auth-storage"
