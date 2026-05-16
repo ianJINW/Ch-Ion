@@ -3,14 +3,14 @@ import { createServer } from "http";
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 
-import logger from "./src/utils/logger.js"
-import envConfig from "./src/config/env.Config.js";
-import reqLogger from "./src/middleware/logging.js";
-import initSocket from "./src/utils/socket.js";
-import connectDB from "./src/config/db.js";
-import userRouter from "./src/routes/user.route.js";
-import messageRouter from "./src/routes/message.route.js";
-import roomRouter from './src/routes/room.routes';
+import logger from "./utils/logger.js"
+import envConfig from "./config/env.Config.js";
+import reqLogger from "./middleware/logging.js";
+import initSocket from "./utils/socket.js";
+import connectDB from "./config/db.js";
+import userRouter from "./routes/user.route.js";
+import messageRouter from "./routes/message.route.js";
+import roomRouter from "./routes/room.routes.js";
 
 
 const app = express()

@@ -1,22 +1,22 @@
 import { Schema } from "mongoose";
 declare const Message: import("mongoose").Model<{
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
 } & import("mongoose").DefaultTimestampProps, {}, {}, {
     id: string;
 }, import("mongoose").Document<unknown, {}, {
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
 } & import("mongoose").DefaultTimestampProps, {
     id: string;
 }, {
     timestamps: true;
 }> & Omit<{
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
 } & import("mongoose").DefaultTimestampProps & {
     _id: import("mongoose").Types.ObjectId;
 } & {
@@ -26,21 +26,21 @@ declare const Message: import("mongoose").Model<{
 }, Schema<any, import("mongoose").Model<any, any, any, any, any, any, any>, {}, {}, {}, {}, {
     timestamps: true;
 }, {
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
 } & import("mongoose").DefaultTimestampProps, import("mongoose").Document<unknown, {}, {
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
 } & import("mongoose").DefaultTimestampProps, {
     id: string;
 }, Omit<import("mongoose").DefaultSchemaOptions, "timestamps"> & {
     timestamps: true;
 }> & Omit<{
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
 } & import("mongoose").DefaultTimestampProps & {
     _id: import("mongoose").Types.ObjectId;
 } & {
@@ -48,9 +48,9 @@ declare const Message: import("mongoose").Model<{
 }, "id"> & {
     id: string;
 }, unknown, {
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
     createdAt: NativeDate;
     updatedAt: NativeDate;
 } & {
@@ -58,9 +58,9 @@ declare const Message: import("mongoose").Model<{
 } & {
     __v: number;
 }>, {
+    msg: string;
     roomId: string;
     senderId: import("mongoose").Types.ObjectId;
-    msg: string;
     createdAt: NativeDate;
     updatedAt: NativeDate;
 } & {
