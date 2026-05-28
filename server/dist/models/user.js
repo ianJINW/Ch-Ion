@@ -1,5 +1,7 @@
 import { Document, model, Schema } from 'mongoose';
 import { compare, genSalt, hash } from "bcryptjs";
+import { createHmac } from 'crypto';
+import envConfig from '../config/env.Config.js';
 const userSchema = new Schema({
     username: {
         type: String,
@@ -20,16 +22,20 @@ const userSchema = new Schema({
 }, {
     timestamps: true
 });
+const pepperPassword = (password) => {
+    return createHmac('sha256', envConfig.PEPPER_SECRET).update(password).digest('hex');
+};
 userSchema.pre('save', async function () {
     if (!this.isModified("password"))
         return;
+    const peppered = pepperPassword(this.password);
     const salt = await genSalt(10);
-    this.password = await hash(this.password, salt);
+    this.password = await hash(peppered, salt);
 });
 userSchema.methods.comparePassword = async function (candidatePassword) {
     if (!this.password)
         return false;
-    return compare(candidatePassword, this.password);
+    return compare(pepperPassword(candidatePassword), this.password);
 };
 userSchema.set("toJSON", {
     transform: (_, ret) => {

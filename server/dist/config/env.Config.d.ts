@@ -4,6 +4,7 @@ declare const envConfig: Readonly<{
     MONGO_URI: string;
     JWT_SECRET: string;
     GLOBAL_ROOM: string;
+    PEPPER_SECRET: string;
 } & import("envalid").CleanedEnvAccessors>;
 export default envConfig;
 //# sourceMappingURL=env.Config.d.ts.map

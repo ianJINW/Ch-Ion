@@ -1,8 +1,9 @@
 import { Router } from "express";
-import { createUser, login, me } from "../controller/user.controller.js";
+import { createUser, login, me, logOut } from "../controller/user.controller.js";
 const userRouter = Router();
 userRouter.route('/').post(createUser);
-userRouter.route('/me').post(me);
+userRouter.route('/me').get(me);
 userRouter.route('/login').post(login);
+userRouter.route('/logout').post(logOut);
 export default userRouter;
 //# sourceMappingURL=user.route.js.map

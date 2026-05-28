@@ -1,5 +1,7 @@
 import { Document, model, Schema, type HydratedDocument } from 'mongoose';
 import { compare, genSalt, hash } from "bcryptjs";
+import { createHmac } from 'crypto';
+import envConfig from '../config/env.Config.js';
 
 export interface IUser extends Document {
   username: string;
@@ -30,17 +32,23 @@ const userSchema = new Schema<IUser>({
   timestamps: true
 })
 
+const pepperPassword = (password: string) => {
+  return createHmac('sha256', envConfig.PEPPER_SECRET).update(password).digest('hex')
+
+}
+
 userSchema.pre('save', async function (this: HydratedDocument<IUser>) {
   if (!this.isModified("password")) return
 
+  const peppered = pepperPassword(this.password!)
   const salt = await genSalt(10)
-  this.password = await hash(this.password!, salt)
+  this.password = await hash(peppered, salt)
 })
 
 userSchema.methods.comparePassword = async function (candidatePassword: string): Promise<boolean> {
   if (!this.password) return false;
 
-  return compare(candidatePassword, this.password)
+  return compare(pepperPassword(candidatePassword), this.password)
 }
 
 userSchema.set("toJSON", {

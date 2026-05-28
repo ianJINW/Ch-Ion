@@ -4,12 +4,14 @@ import { toast } from "sonner"
 
 export const reqData = async (url: string) => {
   const req = await api.get(url)
+  console.log(req.data);
 
   return req.data
 }
 
 const postData = async (url: string, data: unknown) => {
   const req = await api.post(url, data)
+  console.log(req.data);
 
   return req.data
 }

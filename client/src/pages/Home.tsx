@@ -3,10 +3,12 @@ import { useNavigate } from "react-router-dom";
 import { MessageCircle, LogOut, User } from "lucide-react";
 import useAuthStore from "../store/auth.store";
 import { useGetData } from "../lib/data-api";
+import { useLogoutApi } from "../lib/auth-api";
 
 const Home: FC = () => {
   const navigate = useNavigate();
   const { user, logout } = useAuthStore();
+  const { mutate: logoutMutate, isPending: logoutPending } = useLogoutApi();
 
   const { data, isPending } = useGetData("user/me");
 
@@ -30,10 +32,19 @@ const Home: FC = () => {
         <button
           type="button"
           onClick={() => {
-            logout();
-            navigate('/auth');
+            logoutMutate(undefined, {
+              onSuccess: () => {
+                logout();
+                navigate('/auth');
+              },
+              onError: () => {
+                logout();
+                navigate('/auth');
+              },
+            });
           }}
-          className="inline-flex items-center gap-2 rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm text-red-300 transition hover:bg-red-500/20"
+          disabled={logoutPending}
+          className="inline-flex items-center gap-2 rounded-2xl border border-red-500/20 bg-red-500/10 px-4 py-2 text-sm text-red-300 transition hover:bg-red-500/20 disabled:cursor-not-allowed disabled:opacity-50"
         >
           <LogOut size={16} />
           Logout

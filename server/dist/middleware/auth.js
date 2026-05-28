@@ -6,44 +6,45 @@ const socketAuth = async (socket, next) => {
     try {
         const cookieHeader = socket.handshake.headers.cookie;
         if (!cookieHeader) {
-            return next(new Error('No cookies provided'));
+            return next(new Error('No authentication credentials provided. Please log in.'));
         }
         const cookies = parse(cookieHeader);
         const token = cookies.tokencookie;
         if (!token) {
-            return next(new Error('Unauthorized'));
+            return next(new Error('Missing authentication token. Please log in.'));
         }
         const decoded = verifyToken(token);
         const user = await User.findById(decoded.userId).select('-password');
         if (!user) {
-            return next(new Error('User not found'));
+            return next(new Error('User not found. Please log in again.'));
         }
         socket.data.user = user;
-        logger.info(`Socket connected: ${user.username}`);
+        logger.info(`Socket authenticated: ${user.username} (${socket.id})`);
         next();
     }
     catch (error) {
-        logger.error(error);
-        next(new Error('Unauthorized'));
+        logger.warn('Socket authentication failed:', error instanceof Error ? error.message : 'Unknown error');
+        next(new Error('Authentication failed. Invalid or expired token.'));
     }
 };
 export default socketAuth;
 export const authMiddleware = (req, res, next) => {
     try {
         const token = req.cookies.tokencookie;
-        if (!token)
+        if (!token) {
             return res.status(401).json({
-                msg: "Not authenticated!"
+                message: 'Authentication required. Please log in.'
             });
+        }
         const decoded = verifyToken(token);
         req.user = { id: decoded.userId };
-        logger.info(`Welcome authorized member`);
+        logger.info(`Request authorized for user: ${decoded.userId}`);
         next();
     }
     catch (error) {
-        logger.error('Not authorized');
+        logger.warn('Authentication failed:', error instanceof Error ? error.message : 'Unknown error');
         return res.status(401).json({
-            message: 'Unauthorized'
+            message: 'Invalid or expired token. Please log in again.'
         });
     }
 };

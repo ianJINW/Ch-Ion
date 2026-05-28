@@ -399,3 +399,204 @@
 {"duration":"6ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-16T12:30:13.912Z","url":"/user/me"}
 {"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-16T12:46:21.839Z"}
 {"level":"info","message":"Welcome authorized member","timestamp":"2026-05-16T12:46:24.501Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-19T05:47:32.593Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-19T05:47:34.378Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-19T05:49:03.491Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-19T05:49:05.057Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-19T05:49:48.284Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-19T05:49:49.801Z"}
+{"duration":"24ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-19T05:50:00.222Z","url":"/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-19T05:50:00.256Z","url":"/api/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-19T05:50:01.262Z","url":"/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-19T05:50:03.284Z","url":"/user/me"}
+{"duration":"671ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-19T05:50:14.231Z","url":"/login"}
+{"level":"info","message":"Welcome authorized member","timestamp":"2026-05-19T05:50:14.360Z"}
+{"duration":"500ms","level":"info","message":"HTTP Request","method":"GET","status":304,"timestamp":"2026-05-19T05:50:14.852Z","url":"/"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-21T13:20:50.617Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-21T13:21:00.307Z"}
+{"duration":"25ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:25:57.297Z","url":"/user/me"}
+{"duration":"8ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:25:57.332Z","url":"/api/me"}
+{"duration":"11ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:25:58.329Z","url":"/user/me"}
+{"duration":"7ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:26:00.356Z","url":"/user/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:26:04.374Z","url":"/user/me"}
+{"duration":"14ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:33:22.511Z","url":"/api/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:33:22.543Z","url":"/user/me"}
+{"duration":"7ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:34:21.666Z","url":"/user/me"}
+{"duration":"26ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:34:21.709Z","url":"/api/me"}
+{"duration":"25ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:36:51.026Z","url":"/api/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:38:59.713Z","url":"/user/me"}
+{"duration":"7ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:38:59.744Z","url":"/api/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:39:10.661Z","url":"/api/me"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:39:13.653Z","url":"/api/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:46:50.656Z","url":"/api/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:48:23.656Z","url":"/api/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:26.681Z","url":"/user/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:26.692Z","url":"/api/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:34.660Z","url":"/user/me"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:36.689Z","url":"/user/me"}
+{"duration":"11ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:38.963Z","url":"/user/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:38.975Z","url":"/api/me"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:40.004Z","url":"/user/me"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:42.024Z","url":"/user/me"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:49:46.203Z","url":"/user/me"}
+{"duration":"44ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:51:22.904Z","url":"/"}
+{"duration":"13ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:51:23.938Z","url":"/"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:51:25.956Z","url":"/"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:51:29.976Z","url":"/"}
+{"duration":"21ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:56:00.714Z","url":"/api/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:56:33.706Z","url":"/api/me"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-21T13:58:02.300Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-21T13:58:12.567Z"}
+{"duration":"31ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:58:56.277Z","url":"/"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:58:57.287Z","url":"/"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:58:59.306Z","url":"/"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:59:01.395Z","url":"/"}
+{"duration":"23ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-21T13:59:01.463Z","url":"/api/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:59:02.431Z","url":"/"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:59:04.451Z","url":"/"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T13:59:08.478Z","url":"/"}
+{"duration":"6ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-21T14:02:26.749Z","url":"/"}
+{"duration":"855ms","level":"info","message":"HTTP Request","method":"POST","status":401,"timestamp":"2026-05-21T14:02:32.850Z","url":"/login"}
+{"duration":"800ms","level":"info","message":"HTTP Request","method":"POST","status":401,"timestamp":"2026-05-21T14:02:38.228Z","url":"/login"}
+{"duration":"719ms","level":"info","message":"HTTP Request","method":"POST","status":401,"timestamp":"2026-05-21T14:02:53.548Z","url":"/login"}
+{"duration":"127ms","level":"info","message":"HTTP Request","method":"POST","status":409,"timestamp":"2026-05-21T14:03:15.067Z","url":"/"}
+{"duration":"6ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-21T14:04:18.174Z","url":"/api/v1/groups"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-21T14:04:26.627Z","url":"/"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-21T14:05:22.215Z","url":"/"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-21T14:05:29.748Z","url":"/"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-21T14:06:32.465Z","url":"/"}
+{"duration":"39ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-21T14:06:35.897Z","url":"/"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"POST","status":400,"timestamp":"2026-05-21T14:06:49.455Z","url":"/"}
+{"duration":"175ms","level":"info","message":"HTTP Request","method":"POST","status":409,"timestamp":"2026-05-21T14:07:51.093Z","url":"/"}
+{"level":"info","message":"User joshua created successfully","timestamp":"2026-05-21T14:08:02.789Z"}
+{"duration":"1263ms","level":"info","message":"HTTP Request","method":"POST","status":201,"timestamp":"2026-05-21T14:08:02.794Z","url":"/"}
+{"duration":"882ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-21T14:08:15.296Z","url":"/login"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-21T14:08:58.784Z","url":"/api/room"}
+{"level":"info","message":"Welcome authorized member","timestamp":"2026-05-21T14:09:06.841Z"}
+{"duration":"7474ms","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-05-21T14:09:14.299Z","url":"/"}
+{"level":"info","message":"Welcome authorized member","timestamp":"2026-05-21T14:09:45.755Z"}
+{"duration":"129ms","level":"info","message":"HTTP Request","method":"GET","status":500,"timestamp":"2026-05-21T14:09:45.881Z","url":"/api/messages"}
+{"level":"info","message":"Welcome authorized member","timestamp":"2026-05-21T14:09:51.691Z"}
+{"duration":"131ms","level":"info","message":"HTTP Request","method":"GET","status":500,"timestamp":"2026-05-21T14:09:51.819Z","url":"/api/messages"}
+{"level":"info","message":"Welcome authorized member","timestamp":"2026-05-21T14:10:12.323Z"}
+{"duration":"79ms","level":"info","message":"HTTP Request","method":"GET","status":500,"timestamp":"2026-05-21T14:10:12.400Z","url":"/api/messages"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T02:45:43.572Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T02:45:45.540Z"}
+{"duration":"57ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-26T02:45:59.706Z","url":"/user/me"}
+{"duration":"11ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-26T02:45:59.788Z","url":"/api/me"}
+{"duration":"178ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-26T02:46:17.076Z","url":"/login"}
+{"duration":"174ms","level":"info","message":"HTTP Request","method":"POST","status":409,"timestamp":"2026-05-26T02:46:30.190Z","url":"/"}
+{"duration":"6ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-26T03:07:33.838Z","url":"/api/me"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:07:50.347Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:07:52.427Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:13:28.352Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:13:30.080Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:14:15.518Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:14:16.784Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:22:21.029Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:22:23.116Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:22:34.155Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:22:37.979Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-26T03:22:42.920Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:22:58.381Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:23:00.346Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-26T03:23:08.776Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:23:15.873Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:23:18.252Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-26T03:24:41.097Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:24:52.755Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:24:54.935Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-26T03:25:11.812Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:25:19.299Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:25:21.106Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-26T03:26:06.674Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:26:14.277Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:26:16.219Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-26T03:28:14.534Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:28:18.637Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:28:20.827Z"}
+{"duration":"32ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-26T03:45:35.011Z","url":"/api/user/me"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","timestamp":"2026-05-26T03:45:41.803Z"}
+{"level":"info","message":"Server running on http://localhost:5000","timestamp":"2026-05-26T03:46:20.464Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:46:22.072Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","timestamp":"2026-05-26T03:47:09.686Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:47:16.962Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:47:18.387Z"}
+{"level":"info","message":"SIGINT received, shutting down gracefully","timestamp":"2026-05-26T03:47:56.269Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-26T03:48:13.416Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-26T03:48:14.921Z"}
+{"duration":"28ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-26T03:49:09.818Z","url":"/api/user/me"}
+{"duration":"7ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-26T03:49:17.332Z","url":"/api/user/login"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-26T03:49:27.311Z","url":"/api/user"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-26T03:50:15.356Z","url":"/api/user"}
+{"duration":"7ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-26T03:50:22.477Z","url":"/api/user/login"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-26T03:50:37.564Z","url":"/api/user/login"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-26T03:50:39.128Z","url":"/api/user/login"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-27T18:04:14.648Z"}
+{"level":"error","message":"🔴 MongoDB connection failed MongoPoolClearedError: Connection pool for ac-w5r9nzo-shard-00-02.bg9k4fq.mongodb.net:27017 was cleared because another operation failed with: \"read ECONNRESET\"","timestamp":"2026-05-27T18:04:37.668Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-27T18:05:22.272Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-27T18:05:34.184Z"}
+{"duration":"16ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-27T18:05:59.141Z","url":"/api/user/me"}
+{"duration":"9ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-27T18:05:59.212Z","url":"/api/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-27T18:06:45.073Z","url":"/api/user/login"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-27T18:07:11.796Z","url":"/api/user"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-28T11:11:31.408Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-28T11:11:34.474Z"}
+{"duration":"46ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-28T11:11:59.252Z","url":"/api/user/me"}
+{"duration":"3ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-28T11:11:59.298Z","url":"/api/user/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-28T11:12:43.493Z","url":"/api/user/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-28T11:13:01.946Z","url":"/api/user/login"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-28T11:14:02.864Z","url":"/api/user"}
+{"duration":"7ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-28T11:20:20.492Z","url":"/api/user/me"}
+{"duration":"4ms","level":"info","message":"HTTP Request","method":"POST","status":404,"timestamp":"2026-05-28T11:20:33.858Z","url":"/api/user"}
+{"duration":"327ms","level":"info","message":"HTTP Request","method":"POST","status":409,"timestamp":"2026-05-28T11:26:17.086Z","url":"/"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-28T11:27:27.839Z","url":"/api/user/me"}
+{"level":"info","message":"User james created successfully","timestamp":"2026-05-28T11:27:37.674Z"}
+{"duration":"822ms","level":"info","message":"HTTP Request","method":"POST","status":201,"timestamp":"2026-05-28T11:27:37.680Z","url":"/"}
+{"duration":"1ms","level":"info","message":"HTTP Request","method":"GET","status":404,"timestamp":"2026-05-28T11:27:53.036Z","url":"/api/user/me"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-28T11:28:16.844Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-28T11:28:21.200Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-28T11:28:23.165Z"}
+{"duration":"651ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-28T11:28:29.501Z","url":"/login"}
+{"level":"info","message":"Request authorized for user: 6a1826a92051bbfd9c7c3c81","timestamp":"2026-05-28T11:28:29.719Z"}
+{"duration":"725ms","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-05-28T11:28:30.437Z","url":"/"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-28T11:49:56.631Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-28T11:50:03.324Z"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-28T11:50:07.625Z"}
+{"duration":"88ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-28T11:53:24.216Z","url":"/me"}
+{"level":"info","message":"Socket authenticated: james (_XVdL24EE7jkgq_-AAAB)","timestamp":"2026-05-28T11:53:24.526Z"}
+{"level":"info","message":"User connected: _XVdL24EE7jkgq_-AAAB","timestamp":"2026-05-28T11:53:24.530Z"}
+{"duration":"8ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-28T11:53:49.439Z","url":"/me"}
+{"duration":"5ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-28T12:04:36.484Z","url":"/me"}
+{"level":"info","message":"User disconnected: james (_XVdL24EE7jkgq_-AAAB)","timestamp":"2026-05-28T12:16:09.431Z"}
+{"duration":"6ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-28T12:16:23.322Z","url":"/me"}
+{"level":"info","message":"Socket authenticated: james (mL20nDMlBG1H-pYCAAAD)","timestamp":"2026-05-28T12:16:27.850Z"}
+{"level":"info","message":"User connected: mL20nDMlBG1H-pYCAAAD","timestamp":"2026-05-28T12:16:27.852Z"}
+{"level":"info","message":"User disconnected: james (mL20nDMlBG1H-pYCAAAD)","timestamp":"2026-05-28T12:20:02.122Z"}
+{"duration":"2ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-28T12:20:06.617Z","url":"/me"}
+{"level":"info","message":"Socket authenticated: james (ulIt5ENPFAG61Yh0AAAF)","timestamp":"2026-05-28T12:20:06.809Z"}
+{"level":"info","message":"User connected: ulIt5ENPFAG61Yh0AAAF","timestamp":"2026-05-28T12:20:06.810Z"}
+{"level":"info","message":"SIGTERM received, shutting down gracefully","timestamp":"2026-05-28T12:20:10.820Z"}
+{"level":"info","message":"User disconnected: james (ulIt5ENPFAG61Yh0AAAF)","timestamp":"2026-05-28T12:20:12.058Z"}
+{"level":"info","message":"Server running on http://localhost:8080","timestamp":"2026-05-28T12:20:16.605Z"}
+{"duration":"25ms","level":"info","message":"HTTP Request","method":"GET","status":401,"timestamp":"2026-05-28T12:20:16.772Z","url":"/me"}
+{"level":"info","message":"🟢 MongoDB connected","timestamp":"2026-05-28T12:20:25.118Z"}
+{"level":"info","message":"Socket authenticated: james (lcQA23dTV25o666WAAAB)","timestamp":"2026-05-28T12:20:25.947Z"}
+{"level":"info","message":"User connected: lcQA23dTV25o666WAAAB","timestamp":"2026-05-28T12:20:25.953Z"}
+{"duration":"4669ms","level":"info","message":"HTTP Request","method":"POST","status":200,"timestamp":"2026-05-28T12:20:26.599Z","url":"/login"}
+{"level":"info","message":"Request authorized for user: 6a1826a92051bbfd9c7c3c81","timestamp":"2026-05-28T12:20:26.799Z"}
+{"duration":"882ms","level":"info","message":"HTTP Request","method":"GET","status":200,"timestamp":"2026-05-28T12:20:27.679Z","url":"/"}
+{"level":"info","message":"james left room: hello","timestamp":"2026-05-28T12:20:29.335Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null}},"index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null},"level":"error","message":"Failed to join room: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","stack":"MongoServerError: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }\n    at InsertOneOperation.handleOk (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/insert.ts:79:13)\n    at executeOperationWithRetries (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:267:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async executeOperation (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:127:12)\n    at async Collection.insertOne (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/collection.ts:294:12)\n    at async model.$__save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:428:16)\n    at async model.save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:667:5)\n    at async model.create (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:2747:5)\n    at async Socket.<anonymous> (/home/josh/Desktop/Ch-Ion/server/src/utils/socket.ts:62:18)","timestamp":"2026-05-28T12:20:29.839Z"}
+{"level":"info","message":"james left room: 69fb21e1817d246327973c88","timestamp":"2026-05-28T12:20:37.533Z"}
+{"level":"info","message":"james left room: hello","timestamp":"2026-05-28T12:20:37.555Z"}
+{"level":"info","message":"james left room: 69fb21e1817d246327973c88","timestamp":"2026-05-28T12:20:37.590Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null}},"index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null},"level":"error","message":"Failed to join room: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","stack":"MongoServerError: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }\n    at InsertOneOperation.handleOk (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/insert.ts:79:13)\n    at executeOperationWithRetries (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:267:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async executeOperation (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:127:12)\n    at async Collection.insertOne (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/collection.ts:294:12)\n    at async model.$__save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:428:16)\n    at async model.save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:667:5)\n    at async model.create (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:2747:5)\n    at async Socket.<anonymous> (/home/josh/Desktop/Ch-Ion/server/src/utils/socket.ts:62:18)","timestamp":"2026-05-28T12:20:37.903Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null}},"index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null},"level":"error","message":"Failed to join room: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","stack":"MongoServerError: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }\n    at InsertOneOperation.handleOk (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/insert.ts:79:13)\n    at executeOperationWithRetries (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:267:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async executeOperation (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:127:12)\n    at async Collection.insertOne (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/collection.ts:294:12)\n    at async model.$__save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:428:16)\n    at async model.save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:667:5)\n    at async model.create (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:2747:5)\n    at async Socket.<anonymous> (/home/josh/Desktop/Ch-Ion/server/src/utils/socket.ts:62:18)","timestamp":"2026-05-28T12:20:37.910Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null}},"index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null},"level":"error","message":"Failed to join room: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","stack":"MongoServerError: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }\n    at InsertOneOperation.handleOk (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/insert.ts:79:13)\n    at executeOperationWithRetries (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:267:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async executeOperation (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:127:12)\n    at async Collection.insertOne (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/collection.ts:294:12)\n    at async model.$__save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:428:16)\n    at async model.save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:667:5)\n    at async model.create (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:2747:5)\n    at async Socket.<anonymous> (/home/josh/Desktop/Ch-Ion/server/src/utils/socket.ts:62:18)","timestamp":"2026-05-28T12:20:37.916Z"}
+{"level":"info","message":"james left room: hello","timestamp":"2026-05-28T12:20:58.618Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null}},"index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null},"level":"error","message":"Failed to join room: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","stack":"MongoServerError: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }\n    at InsertOneOperation.handleOk (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/insert.ts:79:13)\n    at executeOperationWithRetries (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:267:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async executeOperation (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:127:12)\n    at async Collection.insertOne (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/collection.ts:294:12)\n    at async model.$__save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:428:16)\n    at async model.save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:667:5)\n    at async model.create (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:2747:5)\n    at async Socket.<anonymous> (/home/josh/Desktop/Ch-Ion/server/src/utils/socket.ts:62:18)","timestamp":"2026-05-28T12:20:58.895Z"}
+{"level":"info","message":"james left room: hello","timestamp":"2026-05-28T12:21:01.439Z"}
+{"level":"info","message":"Request authorized for user: 6a1826a92051bbfd9c7c3c81","timestamp":"2026-05-28T12:21:11.363Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null}},"index":0,"keyPattern":{"roomId":1},"keyValue":{"roomId":null},"level":"error","message":"E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }","stack":"MongoServerError: E11000 duplicate key error collection: test.rooms index: roomId_1 dup key: { roomId: null }\n    at InsertOneOperation.handleOk (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/insert.ts:79:13)\n    at executeOperationWithRetries (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:267:26)\n    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)\n    at async executeOperation (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/operations/execute_operation.ts:127:12)\n    at async Collection.insertOne (/home/josh/Desktop/Ch-Ion/node_modules/mongodb/src/collection.ts:294:12)\n    at async model.$__save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:428:16)\n    at async model.save (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:667:5)\n    at async model.create (/home/josh/Desktop/Ch-Ion/node_modules/mongoose/lib/model.js:2747:5)\n    at async createRoom (/home/josh/Desktop/Ch-Ion/server/src/controller/room.controller.ts:17:18)","timestamp":"2026-05-28T12:21:11.599Z"}
+{"duration":"245ms","level":"info","message":"HTTP Request","method":"POST","status":500,"timestamp":"2026-05-28T12:21:11.606Z","url":"/"}

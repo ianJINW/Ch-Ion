@@ -54,6 +54,19 @@ export const createMessage = async (req: Request, res: Response) => {
   }
 }
 
-export const getMessages = async (roomId: string) => {
-  return Message.find({ roomId }).populate("senderId", "username").sort({ createdAt: 1 })
+export const getMessages = async (req: Request, res: Response) => {
+  try {
+    if (!req.query.roomId || typeof req.query.roomId !== 'string') {
+      return res.status(400).json({ message: "Room ID is required" });
+    }
+
+    const messages = await Message.find({ roomId: req.query.roomId })
+      .populate("senderId", "username")
+      .sort({ createdAt: 1 });
+
+    return res.json(messages);
+  } catch (error) {
+    logger.error(error);
+    return res.status(500).json({ message: "Failed to fetch messages" });
+  }
 }

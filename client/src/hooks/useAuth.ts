@@ -10,15 +10,15 @@ const useAuthSync = () => {
   const logoutUser = useAuthStore((s) => s.logout);
 
   useEffect(() => {
-    if (isSuccess && data) {
-      setAuth(data.user, data.token ?? null);
+    if (isSuccess && data?.user) {
+      setAuth(data.user);
     }
 
     if (isError) {
       if (axios.isAxiosError(error)) {
         const status = error.response?.status;
         if (status === 401 || status === 403) {
-          logoutUser();
+          logoutUser(); // Clear frontend auth state
         }
       }
     }

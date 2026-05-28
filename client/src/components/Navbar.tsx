@@ -2,16 +2,26 @@ import type { FC } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Home, MessageCircle } from "lucide-react";
 import useAuthStore from "../store/auth.store";
+import { useLogoutApi } from "../lib/auth-api";
 
 const NavBar: FC = () => {
   const logout = useAuthStore(s => s.logout)
   const user = useAuthStore(s => s.user)
+  const { mutate: logoutMutate, isPending: logoutPending } = useLogoutApi();
 
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    logout();
-    navigate('/auth');
+    logoutMutate(undefined, {
+      onSuccess: () => {
+        logout();
+        navigate('/auth');
+      },
+      onError: () => {
+        logout();
+        navigate('/auth');
+      },
+    });
   };
 
   return (
@@ -34,7 +44,8 @@ const NavBar: FC = () => {
             <button
               type="button"
               onClick={handleLogout}
-              className="rounded-full border border-neutral-700 bg-neutral-950 px-3 py-2 text-sm text-white transition hover:border-sky-500"
+              disabled={logoutPending}
+              className="rounded-full border border-neutral-700 bg-neutral-950 px-3 py-2 text-sm text-white transition hover:border-sky-500 disabled:cursor-not-allowed disabled:opacity-50"
             >
               Logout
             </button>

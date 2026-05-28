@@ -82,17 +82,28 @@ export const login = async (req, res) => {
     }
 };
 export const me = async (req, res) => {
-    const user = req.user;
-    res.json({ user, message: "Hit just right" });
+    if (!req.user?.id) {
+        return res.status(401).json({ message: 'Unauthorized' });
+    }
+    try {
+        const user = await User.findById(req.user.id).select('-password');
+        if (!user) {
+            return res.status(404).json({ message: 'User not found' });
+        }
+        return res.json({ user, message: "Authorized" });
+    }
+    catch (error) {
+        logger.error(error);
+        return res.status(500).json({ message: 'Failed to fetch user' });
+    }
 };
-export const logOut = async (req, res) => {
-    req.user = { id: "" };
+export const logOut = async (_req, res) => {
     res.clearCookie("tokencookie", {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",
         sameSite: "lax",
-        path: "/"
+        path: "/",
     });
-    res.json({ message: "LOgged out" });
+    return res.json({ message: "Logged out" });
 };
 //# sourceMappingURL=user.controller.js.map

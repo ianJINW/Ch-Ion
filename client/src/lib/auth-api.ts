@@ -4,7 +4,6 @@ import api from "./axios"
 import useAuthStore from "../store/auth.store";
 import { useNavigate, useSearchParams } from "react-router-dom";
 import { toast } from "sonner";
-import { reqData } from "./data-api";
 
 export interface registerForm {
   username: string
@@ -18,18 +17,25 @@ export interface loginForm {
 }
 
 const register = async (formData: registerForm, url: string) => {
-  const req = await api.post(url, formData)
+  const endpoint = url || '/api/user';
+  const req = await api.post(endpoint, formData)
   return req.data
 }
 
 const loginFN = async (formData: loginForm, url: string) => {
-  const req = await api.post(url, formData)
+  const endpoint = url || '/api/user/login';
+  const req = await api.post(endpoint, formData)
+
+  console.log(req.data);
 
   return req.data
 }
 
 const logout = async () => {
-  const req = await api.post("/auth/logout")
+  const endpoint = import.meta.env.VITE_LOGOUT_URL || '/api/user/logout';
+  const req = await api.post(endpoint)
+
+  console.log(req.data);
 
   return req.data
 }
@@ -42,11 +48,11 @@ export const useLoginApi = (url: string) => {
   return useMutation({
     mutationFn: (formData: loginForm) => loginFN(formData, url),
     onSuccess: data => {
-      login(data.user, data.token ?? null)
-
-      toast.info(`User logged in.`)
+      login(data.user)
+      toast.success(`Logged in successfully`)
       navigate('/chat')
-    }, onError: () => {
+    },
+    onError: () => {
       toast.error(`User login failed. Let's try again.`)
       setSearchParams({ mode: 'login' })
     }
@@ -78,11 +84,17 @@ export const useLogoutApi = () => {
   })
 }
 
+const fetchAuth = async (url: string) => {
+  const endpoint = url || '/api/user/me';
+  const req = await api.get(endpoint)
+  return req.data
+}
+
 export const useAuthApi = () => {
   return useQuery({
     queryKey: ['auth'],
-    queryFn: () => reqData(import.meta.env.VITE_AUTH_URL),
+    queryFn: () => fetchAuth(import.meta.env.VITE_AUTH_URL),
     retry: false,
-    refetchOnWindowFocus: false
+    refetchOnWindowFocus: false,
   })
 }

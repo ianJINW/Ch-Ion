@@ -18,14 +18,21 @@ const initSocket = (server) => {
     io.on('connection', (socket) => {
         logger.info(`User connected: ${socket.id}`);
         if (!socket.data.user) {
+            logger.warn(`Socket ${socket.id} disconnected: no user data`);
             socket.disconnect();
             return;
         }
         socket.username = socket.data.user.username;
         socket.userId = socket.data.user.id;
+        socket.on("error", (error) => {
+            logger.error(`Socket error for ${socket.id}:`, error);
+        });
         socket.on("join_room", async (roomId) => {
             try {
-                // Create room in DB if it doesn't exist
+                if (!roomId || typeof roomId !== 'string') {
+                    socket.emit("error_message", "Invalid room ID");
+                    return;
+                }
                 let room = await Room.findOne({ name: roomId });
                 if (!room) {
                     room = await Room.create({
@@ -33,6 +40,7 @@ const initSocket = (server) => {
                         createdBy: socket.userId,
                         members: [new Types.ObjectId(socket.userId)]
                     });
+                    logger.info(`Room created: ${roomId} by ${socket.username}`);
                 }
                 const isMember = room.members.some(member => member.toString() === socket.userId);
                 if (!isMember) {
@@ -40,68 +48,81 @@ const initSocket = (server) => {
                     await room.save();
                 }
                 socket.join(roomId);
-                // Send message history
-                const messages = await Message.find({ roomId }).sort({ createdAt: 1 });
+                const messages = await Message.find({ roomId })
+                    .populate("senderId", "username -password")
+                    .sort({ createdAt: 1 });
                 socket.emit('messages', messages);
-                logger.info(`👥 ${socket.id} joined room: ${roomId}`);
+                logger.info(`${socket.username} joined room: ${roomId}`);
             }
             catch (error) {
-                logger.error(error);
+                logger.error("Failed to join room:", error);
                 socket.emit("error_message", "Failed to join room");
             }
         });
         socket.on("leave_room", (roomId) => {
-            socket.leave(roomId);
-            logger.info(`🚪 ${socket.id} left room: ${roomId}`);
+            try {
+                socket.leave(roomId);
+                logger.info(`${socket.username} left room: ${roomId}`);
+            }
+            catch (error) {
+                logger.error("Failed to leave room:", error);
+            }
         });
         socket.on("send_message", async ({ roomId, msg, global }) => {
             try {
-                if (!msg || typeof msg !== "string" || !msg.trim())
+                if (!msg || typeof msg !== "string" || !msg.trim()) {
+                    socket.emit("error_message", "Message cannot be empty");
                     return;
+                }
                 if (msg.length > 1000) {
+                    socket.emit("error_message", "Message is too long (max 1000 characters)");
                     return;
                 }
                 if (global) {
                     const message = await Message.create({
                         roomId: envConfig.GLOBAL_ROOM,
-                        msg,
+                        msg: msg.trim(),
                         senderId: socket.userId
                     });
                     io.emit("global_message", message);
+                    logger.debug(`Global message from ${socket.username}: ${msg.substring(0, 50)}...`);
+                    return;
                 }
                 if (!roomId) {
-                    socket.emit("error_message", "Room ID required!");
+                    socket.emit("error_message", "Room ID is required");
                     return;
                 }
                 if (!Types.ObjectId.isValid(roomId)) {
-                    socket.emit("error_message", "Room ID is invalid!");
+                    socket.emit("error_message", "Invalid room ID format");
                     return;
                 }
                 const room = await Room.findById(roomId);
                 if (!room) {
-                    socket.emit("error_message", "Room not found!!");
+                    socket.emit("error_message", "Room not found");
                     return;
                 }
-                const isMember = room.members.some((member) => member.toString() === socket.data.user.id);
+                const isMember = room.members.some((member) => member.toString() === socket.userId);
                 if (!isMember) {
-                    socket.emit("error_message", "Access denied");
+                    socket.emit("error_message", "You are not a member of this room");
                     return;
                 }
                 const message = await Message.create({
                     roomId,
-                    msg,
+                    msg: msg.trim(),
                     senderId: socket.userId
                 });
+                // Populate user info before sending
+                await message.populate("senderId", "username -password");
                 io.to(roomId).emit("room_message", message);
-                return;
+                logger.debug(`Message sent to room ${roomId} by ${socket.username}`);
             }
             catch (err) {
-                logger.error(err);
-                socket.emit("error_message", "Failed to send message");
+                logger.error("Failed to send message:", err);
+                socket.emit("error_message", "Failed to send message. Please try again.");
             }
         });
         socket.on("disconnect", () => {
-            logger.warn(`User disconnected: ${socket.id}`);
+            logger.info(`User disconnected: ${socket.username} (${socket.id})`);
         });
     });
 };

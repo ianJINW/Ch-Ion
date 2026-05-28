@@ -13,8 +13,7 @@ export interface AuthI {
 
 export interface AuthState {
   user: User | null
-  token: string | null
-  login: (user: User, token: string | null) => void
+  login: (user: User) => void
   logout: () => void
 }
 
@@ -22,19 +21,11 @@ const useAuthStore = create<AuthState>()(
   persist(
     set => ({
       user: null,
-      token: null,
-      login: (user, token) => {
-        if (token) {
-          localStorage.setItem("token", token)
-        } else {
-          localStorage.removeItem("token")
-        }
-
-        set({ user, token })
+      login: (user) => {
+        set({ user })
       },
       logout: () => {
-        localStorage.removeItem("token")
-        set({ user: null, token: null })
+        set({ user: null })
       }
     }),
     {
